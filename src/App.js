@@ -9,7 +9,7 @@ import Stacks from './Components/Stacks';
 function App() {
   return (
     
-  <div className='bg-[#1E1E1E]'>
+  <div className='m-6 bg-[#1E1E1E]'>
     <Nav/>
     <Hero/>
     <About_pg />
