@@ -9,11 +9,13 @@ import Stacks from './Components/Stacks';
 function App() {
   return (
     
-  <div className='m-6 bg-[#1E1E1E]'>
+  <div className=' flex flex-col bg-[#1E1E1E] overflow-x-hidden'>
+  <div className=' container m-4'>
     <Nav/>
     <Hero/>
     <About_pg />
     <Stacks />
+  </div>
     
 
   </div>
