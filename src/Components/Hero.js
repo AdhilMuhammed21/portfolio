@@ -14,15 +14,15 @@ function Hero() {
   
     </div>
 
-    <div className='mt-32  flex flex-row justify-center gap-20'>
+    <div className='mt-32  flex flex-row justify-center gap-6 md:gap-20'>
 
-        <div className=' border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-6 py-4'>
+        <div className=' border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-4 py-4'>
         <FaGithub className='text-4xl text-[#CCD0D2]'/>
         </div>
-        <div className='  border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-6 py-4'>
+        <div className='  border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-4 py-4'>
         <FaInstagram className='text-4xl text-[#CCD0D2]'/>
         </div>
-        <div className='  border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-6 py-4'>
+        <div className='  border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-4 py-4'>
         <FaLinkedin className='text-4xl text-[#CCD0D2]'/>
         </div>
     </div>
