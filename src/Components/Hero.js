@@ -41,15 +41,32 @@ function Hero() {
     animate='visible'
     className='mt-32  flex flex-row justify-center gap-6 md:gap-20'>
 
-        <div className=' border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
-        <FaGithub className=' text-4xl text-[#CCD0D2]'/>
-        </div>
-        <div className='  border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-4 py-4'>
-        <FaInstagram className='text-4xl text-[#CCD0D2]'/>
-        </div>
-        <div className='  border border-[#CCD0D2] bg-[#252525] rounded-2xl  px-4 py-4'>
-        <FaLinkedin className='text-4xl text-[#CCD0D2]'/>
-        </div>
+       
+       <a 
+          href="https://github.com/AdhilMuhammed21" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className='border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
+          <FaGithub className='text-4xl text-[#CCD0D2]' />
+        </a>
+
+        
+        <a 
+          href="https://www.instagram.com/_.crown_21._/?hl=en" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className='border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
+          <FaInstagram className='text-4xl text-[#CCD0D2]' />
+        </a>
+
+       
+        <a 
+          href="https://www.linkedin.com/in/adhil-muhammed-c21/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className='border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
+          <FaLinkedin className='text-4xl text-[#CCD0D2]' />
+        </a>
     </motion.div>
     
     
