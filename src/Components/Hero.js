@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Hero() {
   return (
     <div className='h-screen w-screen flex flex-col justify-center items-center overflow-y-hidden '>
-    <div className='md:border border-[#252525] bg-[#252525] flex flex-col justify-center px-32 py-6'>
+    <div className='md:border border-[#252525] bg-[#252525] flex flex-col justify-center px-12 md:px-32 py-6'>
     <h1 className='text-[30px] md:text-[120px] text-[#CCD0D2] font-bold flex'>{name}</h1>
     <p className='text-xs md:text-xl flex text-[#CCD0D2] '>{work}</p>
   
