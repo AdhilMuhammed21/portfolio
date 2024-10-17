@@ -1,5 +1,5 @@
 import React from 'react'
-import {name,work} from '../Constants/Conatants'
+import {name,work} from '../Constants/Constants'
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";

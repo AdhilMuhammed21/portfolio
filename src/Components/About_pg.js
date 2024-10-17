@@ -1,9 +1,9 @@
 import React from 'react'
-import {about} from '../Constants/Conatants'
+import {about} from '../Constants/Constants'
 
 function About_pg() {
   return (
-    <div className=' w-screen flex flex-col justify-center items-center overflow-y-hidden pb-24 lg:px-32'>
+    <div className=' h-full w-screen flex flex-col justify-center items-center overflow-y-hidden pb-24 lg:px-32'>
     <div className=' flex flex-col justify-center border border-[#CCD0D2] bg-[#252525]  mx-6 px-6 md:px-32 py-6 mx-20'>
         <h2 className='text-[#CCD0D2] text-6xl flex flex-col justify-center font-bold pb-6'>About</h2>
         <p className='text-[#CCD0D2] text-md  md:text-2xl'>{about}</p>

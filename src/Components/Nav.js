@@ -1,21 +1,36 @@
-import React from 'react'
+import React from 'react';
 
-function Nav() {
+function Nav({ scrollToSection, activeSection }) {
   return (
-    <div className='hidden md:flex justify-center item-center pt-8 pb-3  h-24 w-screen '>
-    <div className='flex text-[#CCD0D2] text-l gap-24 border border-[#484545] bg[#484545] rounded-full px-4 py-2'>
-    <h1 className='border border-[#484545] bg-[#484545]  rounded-full px-2 py-1'>Home</h1>
-    <h1 className='border border-[#484545] bg-[#484545]  rounded-full px-2 py-1' >About</h1>
-    <h1 className='border border-[#484545] bg-[#484545]  rounded-full px-2 py-1' >Experience</h1>
-    <h1 className='border border-[#484545] bg-[#484545]  rounded-full px-2 py-1' >Contact</h1>
-
+    <div className='hidden md:flex justify-center item-center pt-8 pb-3 h-24 w-screen fixed '>
+      <div className='flex text-[#CCD0D2] text-l gap-24 '>
+        <h1 
+          className={`border ${activeSection === 'home' ? 'text-purple-400' : 'border-transparent'} bg-[#484545] rounded-full px-6 py-2 pt-3 justify-center items-center`} 
+          onClick={() => scrollToSection('home')}
+        >
+          Home
+        </h1>
+        <h1 
+          className={`border ${activeSection === 'about' ? 'text-purple-400' : 'border-transparent'} bg-[#484545] rounded-full px-6 py-2 pt-3 justify-center items-center`} 
+          onClick={() => scrollToSection('about')}
+        >
+          About
+        </h1>
+        <h1 
+          className={`border ${activeSection === 'experience' ? 'text-purple-400' : 'border-transparent'} bg-[#484545] rounded-full px-6 py-2 pt-3 justify-center items-center`} 
+          onClick={() => scrollToSection('experience')}
+        >
+          Experiences
+        </h1>
+        <h1 
+          className={`border ${activeSection === 'contact' ? 'text-purple-400' : 'border-transparent'} bg-[#484545] rounded-full px-6 py-2 pt-3 justify-center items-center`} 
+          onClick={() => scrollToSection('contact')}
+        >
+          Contact
+        </h1>
+      </div>
     </div>
-    <div>
-
-    </div>
-      
-    </div>
-  )
+  );
 }
 
-export default Nav
+export default Nav;
