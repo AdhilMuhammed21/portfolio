@@ -10,7 +10,7 @@ function App() {
   return (
     
   <div className=' flex flex-col bg-[#1E1E1E] overflow-x-hidden'>
-  <div className=' container m-4'>
+  <div className=' container lg:-px-20 '>
     <Nav/>
     <Hero/>
     <About_pg />
