@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Importing icons for hamburger and close
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; 
 
 function Nav({ scrollToSection, activeSection }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,33 +26,33 @@ function Nav({ scrollToSection, activeSection }) {
         </div>
       </div>
 
-      {/* Navbar for small screens */}
+      
       <div className="md:hidden flex justify-end items-center pt-8 pb-3 px-6 h-24 w-screen fixed z-40">
         
         <div onClick={toggleMenu} className="text-3xl cursor-pointer text-[#CCD0D2]">
           {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>
 
-        {/* Mobile Menu */}
+        
         <motion.div
           initial={{ x: '100%' }}
           animate={{ x: isOpen ? '0%' : '100%' }}
           transition={{ duration: 0.3 }}
           className={`fixed top-0 right-0 h-full w-3/4 bg-[#484545] flex flex-col items-center justify-center text-white z-50`} 
         >
-          {/* Close Button inside the menu */}
+          
           <div className="absolute top-5 right-5 text-3xl text-[#CCD0D2] cursor-pointer">
             <AiOutlineClose onClick={toggleMenu} />
           </div>
 
-          {/* Menu Items */}
+          
           {['home', 'about', 'experience', 'contact'].map(section => (
             <h1
               key={section}
               className={`cursor-pointer text-2xl py-4 ${activeSection === section ? 'text-purple-400' : 'text-[#CCD0D2]'}`}
               onClick={() => {
                 scrollToSection(section);
-                toggleMenu(); // Close the menu after clicking
+                toggleMenu(); 
               }}
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
