@@ -11,7 +11,7 @@ function Nav({ scrollToSection, activeSection }) {
 
   return (
     <div>
-      {/* Navbar for larger screens */}
+      
       <div className='hidden md:flex justify-center item-center pt-8 pb-3 h-24 w-screen fixed z-30'>
         <div className='flex text-[#CCD0D2] text-l gap-24'>
           {['home', 'about', 'experience', 'contact'].map(section => (
