@@ -15,6 +15,30 @@ export const EXPERIENCE = [
     
 ]
 
+export const PROJECTS = [
+    {
+        title : "Personal portfolio for the director of civils360 IAS Academy",
+        description : `Designed and developed a professional personal portfolio website for the Director of Civils360 IAS Academy to showcase his background, achievements, and vision.It is also responsive to Mobile and Desktop.`,
+        technologies : ["React","TailwindCss","Framer Motion","Figma" ]
+    },
+    
+    {
+        title : "OLX Clone",
+        description : `Developed a web application that replicates key features of OLX, enabling users to buy and sell products online.`,
+        technologies : ["React","TailwindCss","Firebase","Figma" ]
+    },
+
+    {
+
+        title : "Donor Connect",
+        description : `Collaborated in a team of  3 to design and develop a blood donation request platform aimed at connecting blood donors with recipients in need.Implemented a user-friendly registration and login system for donors, recipients, and hospital administrators, ensuring secure access to the platform.Developed features allowing users to create, view, and respond to blood donation requests based on blood type, location, and urgency.`,
+        technologies : ["HTML","Css","Django","Figma" ]
+        
+    }
+
+
+]
+
 export const CONTACT = 
     {
         email : "adhilek46@gmail.com",
