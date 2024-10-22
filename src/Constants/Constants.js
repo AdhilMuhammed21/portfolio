@@ -17,7 +17,14 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
     {
-        title : "Personal portfolio for the director of civils360 IAS Academy",
+        title : ( <>
+
+
+                Personal portfolio for the director of <br/> civils360 IAS Academy
+                </>
+
+            ),
+        
         description : `Designed and developed a professional personal portfolio website for the Director of Civils360 IAS Academy to showcase his background, achievements, and vision.It is also responsive to Mobile and Desktop.`,
         technologies : ["React","TailwindCss","Framer Motion","Figma" ]
     },

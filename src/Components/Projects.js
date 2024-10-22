@@ -9,7 +9,7 @@ function Projects() {
         {PROJECTS.map((project , index)=>(
           <div key={index}className='mb-8 flex flex-wrap lg:justify-center px-6' >
             <div className='w-full lg:w-1/4'>
-              
+              <h2 className='text-[#CCD0D2]'>{project.title}</h2>
             </div>
             <div className='w-full max-x-wl lg:w-3/4'>
               <p className='mb-4 text-neutral-400'>{project.description}</p>
