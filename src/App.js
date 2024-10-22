@@ -62,9 +62,11 @@ function App() {
         <Experiences />
       </div>
       <Stacks />
+      <Projects/>
       <div ref={contactRef}>
        <Contact/>
       </div>
+
     </div>
   );
 }
