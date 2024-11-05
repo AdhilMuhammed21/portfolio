@@ -1,7 +1,7 @@
 export const name = `Adhil Muhammed`;
 export const work = `Student/Developer`
 
-export const about = `Hello! I'm a Computer Science student with a passion for creating interactive and efficient web applications. With a focus on React development, I strive to build seamless user experiences that blend functionality and design. My journey in tech has given me a strong foundation in coding, problem-solving, and UI/UX design principles, enabling me to bring ideas to life.`
+export const about = `Hello! I’m a Computer Science student driven by a love for building interactive, efficient web applications. My focus is on React development, where I strive to create user experiences that are both seamless and impactful, blending functionality with intuitive design. My journey in tech has deepened my skills in coding, problem-solving, and UI/UX design, empowering me to bring ideas to life in ways that feel engaging and meaningful. I’m excited to keep pushing boundaries, learn from every project, and connect with others in the tech community who share the same passion for crafting exceptional digital experiences.`
 
 
 export const EXPERIENCE = [
