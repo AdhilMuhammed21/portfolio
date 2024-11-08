@@ -3,6 +3,9 @@ import {RiReactjsLine} from 'react-icons/ri'
 import { FaFigma } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { SiAdobephotoshop } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { DiDjango } from "react-icons/di";
+
 import { animate, inertia, motion } from "framer-motion"
 
 const iconV = (duration) => ({
@@ -57,6 +60,20 @@ function Stacks() {
         animate="animate"
          className='rounded-2xl border-4 border-[#CCD0D2] p-4'>
         <SiAdobephotoshop className='text-4xl text-[#4f76ff]'/>
+        </motion.div>
+        <motion.div
+        variants={iconV(1)}
+        initial="initial"
+        animate="animate"
+         className='rounded-2xl border-4 border-[#CCD0D2] p-4'>
+        <FaJava className='text-4xl text-[#4f76ff]'/>
+        </motion.div>
+        <motion.div
+        variants={iconV(4)}
+        initial="initial"
+        animate="animate"
+         className='rounded-2xl border-4 border-[#CCD0D2] p-4'>
+        <DiDjango  className='text-4xl text-green-700'/>
         </motion.div>
     </div>
     </motion.div>
