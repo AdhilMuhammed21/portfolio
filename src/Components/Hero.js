@@ -31,7 +31,7 @@ function Hero() {
     variants={container(0.4)}
     initial='hidden'
     animate='visible'
-    className='text-xs md:text-xl flex text-[#CCD0D2] '>{work}</motion.p>
+    className='text-xs md:text-xl flex text-purple-800 '>{work}</motion.p>
   
     </motion.div>
 
@@ -47,7 +47,7 @@ function Hero() {
           target="_blank" 
           rel="noopener noreferrer"
           className='border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
-          <FaGithub className='text-4xl text-[#CCD0D2]' />
+          <FaGithub className='text-4xl text-purple-500' />
         </a>
 
         
@@ -56,7 +56,7 @@ function Hero() {
           target="_blank" 
           rel="noopener noreferrer"
           className='border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
-          <FaInstagram className='text-4xl text-[#CCD0D2]' />
+          <FaInstagram className='text-4xl text-purple-500' />
         </a>
 
        
@@ -65,7 +65,7 @@ function Hero() {
           target="_blank" 
           rel="noopener noreferrer"
           className='border border-[#CCD0D2] bg-[#252525] rounded-2xl px-4 py-4'>
-          <FaLinkedin className='text-4xl text-[#CCD0D2]' />
+          <FaLinkedin className='text-4xl text-purple-500' />
         </a>
     </motion.div>
     
