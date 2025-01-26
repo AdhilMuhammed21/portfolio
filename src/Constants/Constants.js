@@ -1,3 +1,5 @@
+import { title } from "framer-motion/client";
+
 export const name = `Adhil Muhammed`;
 export const work = `Student/Developer`
 
@@ -41,6 +43,11 @@ export const PROJECTS = [
         description : `Collaborated in a team of  3 to design and develop a blood donation request platform aimed at connecting blood donors with recipients in need.Implemented a user-friendly registration and login system for donors, recipients, and hospital administrators, ensuring secure access to the platform.Developed features allowing users to create, view, and respond to blood donation requests based on blood type, location, and urgency.`,
         technologies : ["HTML","Css","Django","Figma" ]
         
+    },
+    {
+        title:"Netflix Clone",
+        description : `A netflix clone that people can view movie posters by different category`,
+        technologies : ["React","TailwindCSS","Figma",'TMDB']
     }
 
 
